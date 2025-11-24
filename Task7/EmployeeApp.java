@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class EmployeeApp {
 
-	    private static final String URL = "jdbc:mysql://localhost:3306/shiva_concept"; 
+	    private static final String URL = "jdbc:mysql://localhost:3306/employee_db"; 
 	    private static final String USER = "root";     
-	    private static final String PASS = "Prabhas@29#1";
+	    private static final String PASS = "password";
 
 	    private Connection conn;
 	    private Scanner scanner;
@@ -165,3 +165,4 @@ public class EmployeeApp {
 	    }
 
 }
+
